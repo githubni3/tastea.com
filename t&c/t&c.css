@@ -1,0 +1,5 @@
+#term_heading {
+  background: -webkit-linear-gradient(#9f476a 40%, rgb(249, 249, 249) 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
