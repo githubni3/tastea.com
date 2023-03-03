@@ -66,8 +66,9 @@ body{
 
 .product_btn {
   margin-top: 0.5rem;
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+  width: 95%;
+  margin: auto;
 }
 .product_btn > * {
   width: 100%;
@@ -76,12 +77,15 @@ body{
   /* color: white; */
   border-radius: 0.25rem;
   padding: 5px 0;
-  width: 90%;
+  width: 100%;
 }
 .product_btn #readMe {
   /* background-color: rgba(0, 128, 0, 0.7); */
-  border: 1px solid green;
+  border: 1px solid #9f476a;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   color: green;
+  margin-right: 0
 }
 .product_btn #readMe:hover {
   background-color: rgba(0, 128, 0, 0.7);
@@ -91,6 +95,10 @@ body{
   /* background-color: rgba(255, 0, 0, 0.7); */
   color: #9f476a;
   border: 1px solid #9f476a;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: 0;
+  margin-left: 0;
 }
 .product_btn #buyNow:hover {
   background-color: #9f476a;

@@ -285,6 +285,7 @@ html {
   border-radius: 17px;
   border: none;
   margin-bottom: 20px;
+  max-width: 320px;
 }
 .card-img {
   /* border-radius: 17px; */
@@ -360,13 +361,12 @@ html {
 .suggested_tea {
   position: relative;
 }
-.seeAll {
-  position: absolute;
-  right: 0;
-  display: none;
-}
 .Tea_heading {
   display: none;
+}
+.bestFor{
+  color: grey;
+  margin-left: 1.5rem;
 }
 
 /*****************************************

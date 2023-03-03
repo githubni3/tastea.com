@@ -17,7 +17,6 @@
   }
   .product_btn > * {
     padding: 3px 2px;
-    width: 80%;
   }
 
   #searchInput{
@@ -32,7 +31,6 @@
   }
   .product_btn > * {
     padding: 3px 2px;
-    width: 75%;
   }
   .productName {
     font-size: 1rem;
@@ -65,14 +63,12 @@
   }
   .product_btn > * {
     padding: 1.5px 4px;
-    width: 85%;
   }
 }
 
 @media screen and (max-width: 569px) {
   .product_btn > * {
     padding: 1.5px 3px;
-    width: 90%;
   }
 }
 
@@ -110,7 +106,6 @@
   .product_btn > * {
     padding: 1px 3px;
     margin-top: 5px;
-    width: 90%;
   }
 }
 @media screen and (max-width: 511px) {
