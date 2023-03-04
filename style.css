@@ -285,7 +285,10 @@ html {
   border-radius: 17px;
   border: none;
   margin-bottom: 20px;
-  max-width: 320px;
+  max-width: 320px;  
+  margin-left: 1rem;
+  margin-top: 1rem;
+  height: auto;
 }
 .card-img {
   /* border-radius: 17px; */
@@ -303,6 +306,10 @@ html {
 }
 #help_section {
   border-radius: 17px;
+}
+#help_section_form{
+  width: 80vw;
+  margin: auto;
 }
 #help_section label {
   color: #620429;
@@ -358,15 +365,24 @@ html {
   padding: 0.1rem 0.5rem;
   background-color: #9f476a;
 }
-.suggested_tea {
-  position: relative;
+
+/* suggested tea cards */
+#teas{
+  width: 80vw;
+  margin: auto;
+  justify-content: center;
 }
 .Tea_heading {
   display: none;
 }
+.BestFor{
+  color: var(--primary-color);
+  font-weight: bold;
+}
 .bestFor{
   color: grey;
-  margin-left: 1.5rem;
+  /* margin-left: 0.5rem; */
+  display: flex;
 }
 
 /*****************************************

@@ -609,6 +609,8 @@ const search = () => {
     }
   }
 
+
+
   if (searchText.toLocaleLowerCase().includes("tea")) {
     for (let i = 0; i < productJsonArray.length; i++) {
       const element = productJsonArray[i];

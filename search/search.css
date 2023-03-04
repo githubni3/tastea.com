@@ -84,16 +84,17 @@ body{
   border: 1px solid #9f476a;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  color: green;
-  margin-right: 0
+  margin-right: 0;
+  color: #9f476a;
+
 }
 .product_btn #readMe:hover {
-  background-color: rgba(0, 128, 0, 0.7);
+  background-color: #9f476a;
   color: white;
 }
 .product_btn #buyNow {
   /* background-color: rgba(255, 0, 0, 0.7); */
-  color: #9f476a;
+  color: green;
   border: 1px solid #9f476a;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -101,7 +102,7 @@ body{
   margin-left: 0;
 }
 .product_btn #buyNow:hover {
-  background-color: #9f476a;
+  background-color: rgba(0, 128, 0, 0.7);
   color: white;
 }
 
