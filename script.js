@@ -41,6 +41,7 @@ let teasData = [
     name: "Rose Oolong",
     src: "./teas/rose_oolong_1.jpg",
     ailments: "immunity bloodpressure bonehealth anxiety",
+    readMeHref: "/tastea.com/tea_pages/floral-teas.html?#roseOolong",
     display: false,
   },
   {
@@ -48,12 +49,14 @@ let teasData = [
     name: "Jasmine Delight",
     src: "./teas/Jasmine_delight.jpg",
     ailments: "digestion sugar bonehealth",
+    readMeHref: "/tastea.com/tea_pages/floral-teas.html?#jasmineDelight",
     display: false,
   },
   {
     id: 2,
     name: "Blueberry Splash",
     src: "./teas/blueberry.jpg",
+    readMeHref: "/tastea.com/tea_pages/fruity-blend.html?#blueBerrySplash",
     ailments: "sugar",
     display: false,
   },
@@ -62,12 +65,14 @@ let teasData = [
     name: "Tulsi Green Tea",
     src: "./teas/Tulsi-Green-Tea.jpg",
     ailments: "immunity calming cold congestion asthma",
+    readMeHref: "/tastea.com/tea_pages/herbal-teas.html?#tulsiGreenTea",
     display: false,
   },
   {
     id: 4,
     name: "Lemon Tulsi",
     src: "./teas/lemon_tulsi.png",
+    readMeHref: "/tastea.com/tea_pages/herbal-teas.html?#lemonTulsi",
     ailments: "immunity calming asthma insomnia headache",
     display: false,
   },
@@ -76,6 +81,7 @@ let teasData = [
     name: "Masala Chai",
     src: "./teas/masala_tea.webp",
     ailments: "immunity",
+    readMeHref: "/tastea.com/tea_pages/exotic.html?#masalaChai",
     display: false,
   },
   {
@@ -84,6 +90,7 @@ let teasData = [
     src: "./teas/chamomile.jpg",
     ailments:
       "stress insomnia bloodpressure headache diarrhea constipation anxiety",
+    readMeHref: "/tastea.com/tea_pages/floral-teas.html?#chamomile",
     display: false,
   },
   {
@@ -91,6 +98,7 @@ let teasData = [
     name: "Lavender Hush",
     src: "./teas/Lovender_Hush.jpg",
     ailments: "stress cold congestion insomnia anxiety",
+    readMeHref: "/tastea.com/tea_pages/floral-teas.html?#lavenderHush",
     display: false,
   },
   {
@@ -98,6 +106,7 @@ let teasData = [
     name: "Blue Butterfly",
     src: "./images/Blue_butterfly_pea_flower.jpg",
     ailments: "stress weightloss skinhealth",
+    readMeHref: "/tastea.com/tea_pages/floral-teas.html?#blueButterfly",
     display: false,
   },
   {
@@ -105,6 +114,7 @@ let teasData = [
     name: "Mango Desire",
     src: "./teas/Mango_desire.jpeg",
     ailments: "stress skinhealth",
+    readMeHref: "/tastea.com/tea_pages/fruity-blend.html?#mangoDesire",
     display: false,
   },
   {
@@ -112,6 +122,7 @@ let teasData = [
     name: "Mint Tea",
     src: "./teas/mint_tea.jpg",
     ailments: "calming anxiety",
+    readMeHref: "/tastea.com/tea_pages/herbal-teas.html?#mintTea",
     display: false,
   },
 
@@ -120,6 +131,7 @@ let teasData = [
     name: "Liquorice",
     src: "./teas/Liquorice.jpg",
     ailments: "calming digestion diarrhea constipation",
+    readMeHref: "/tastea.com/tea_pages/herbal-teas.html?#liquorice",
     display: false,
   },
 
@@ -128,6 +140,7 @@ let teasData = [
     name: "Strawberry Magic",
     src: "./teas/Strawberry_magic.jpg",
     ailments: "digestion diarrhea",
+    readMeHref: "/tastea.com/tea_pages/fruity-blend.html?#strawberryMagic",
     display: false,
   },
   {
@@ -136,6 +149,7 @@ let teasData = [
     src: "./images/Ginger_turmeric.jpg",
     ailments:
       "digestion skinhealth heartproblem headache diarrhea constipation",
+    readMeHref: "/tastea.com/tea_pages/immunity.html?#gingerTurmeric",
     display: false,
   },
 
@@ -144,6 +158,7 @@ let teasData = [
     name: "Mystic Banana",
     src: "./teas/Mystic_Banana.jpg",
     ailments: "insomnia heartproblem",
+    readMeHref: "/tastea.com/tea_pages/fruity-blend.html?#mysticBanana",
     display: false,
   },
   {
@@ -151,6 +166,7 @@ let teasData = [
     name: "Daily wellness Tea",
     src: "./teas/daily-wellness.jpg",
     ailments: "cold congestion heartproblem asthma",
+    readMeHref: "/tastea.com/tea_pages/immunity.html?#dailyWellnessTea",
     display: false,
   },
   {
@@ -158,6 +174,7 @@ let teasData = [
     name: "Immunity Elixir Tea",
     src: "./teas/Immunity_Elixir_Tea.jfif",
     ailments: "cold congestion asthma",
+    readMeHref: "/tastea.com/tea_pages/immunity.html?#immunityElixirTea",
     display: false,
   },
   {
@@ -165,6 +182,7 @@ let teasData = [
     name: "Hibiscus",
     src: "./teas/hibiscus.jpg",
     ailments: "bloodpressure sugar weightloss bonehealth",
+    readMeHref: "/tastea.com/tea_pages/floral-teas.html?#hibiscus",
     display: false,
   },
   {
@@ -172,6 +190,7 @@ let teasData = [
     name: "Emerald Green",
     src: "./teas/emerald_green.jpg",
     ailments: "bloodpressure",
+    readMeHref: "/tastea.com/tea_pages/authentic.html?#emeraldGreen",
     display: false,
   },
   {
@@ -179,6 +198,7 @@ let teasData = [
     name: "Moringa",
     src: "./teas/Moringa.jpg",
     ailments: "sugar weightloss",
+    readMeHref: "/tastea.com/tea_pages/herbal-teas.html?#moringa",
     display: false,
   },
   {
@@ -186,6 +206,7 @@ let teasData = [
     name: "Divine Apple",
     src: "./teas/divine_apple.jpg",
     ailments: "weightloss constipation bonehealth",
+    readMeHref: "/tastea.com/tea_pages/fruity-blend.html?#divineApple",
     display: false,
   },
   {
@@ -193,6 +214,7 @@ let teasData = [
     name: "Refreshing Pineapple",
     src: "./teas/refreshing_pineapple.png",
     ailments: "headache",
+    readMeHref: "/tastea.com/tea_pages/fruity-blend.html?#refreshingPineapple",
     display: false,
   },
   {
@@ -200,6 +222,7 @@ let teasData = [
     name: "Lemon Zing",
     src: "./teas/Lemon_zing.jpg",
     ailments: "skinhealth",
+    readMeHref: "/tastea.com/tea_pages/fruity-blend.html?#lemonZing",
     display: false,
   },
   {
@@ -207,6 +230,7 @@ let teasData = [
     name: "Lapsang Souchong Smoked Tea",
     src: "./teas/lapsnag.jpg",
     ailments: "heartproblem",
+    readMeHref: "/tastea.com/tea_pages/exotic.html?#lapsangSouchongSmokedTea",
     display: false,
   },
 ];
@@ -271,7 +295,7 @@ const displayTea4 = () => {
     for (const [id, ailments] of combination4) {
       if (teasData[id].display === false) {
         teas.innerHTML += `
-        <div class="tea col-lg-3 col-md-4 col-6 mt-3 ">
+        <a href=${teasData[id].readMeHref} class="tea col-lg-3 col-md-4 col-6 mt-3 ">
           <div class="card my-card shadow">
             <img src=${teasData[id].src} alt="tea image" class="card-img-top card-img">
             <div class="card-body">
@@ -280,7 +304,7 @@ const displayTea4 = () => {
             <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailments.slice(0,-2)}</span></div>
             
           </div>
-        </div>
+        </a>
           `;
 
         teasData[id].display = true;
@@ -302,7 +326,7 @@ const displayTea4 = () => {
           teasData[j].display === false
         ) {
           teas.innerHTML += `
-          <div class="tea col-lg-3 col-md-4 col-6 mt-3 ">
+          <a href=${teasData[id].readMeHref} class="tea col-lg-3 col-md-4 col-6 mt-3 ">
             <div class="card my-card shadow">
               <img src=${teasData[j].src} alt="tea image" class="card-img-top card-img">
               <div class="card-body">
@@ -311,7 +335,7 @@ const displayTea4 = () => {
               <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${name_heading}</span></div>
               
             </div>
-          </div>
+          </a>
             `;
 
           teasData[j].display = true;
@@ -329,20 +353,20 @@ const displayTea4 = () => {
     i++;
   }
 
-  let htmlCard3 = (a, b, c, d, e) => {
+  let htmlCard3 = (a, b, c, d, e, f) => {
     return `
-  <div class="tea col-lg-3 col-md-4 col-6 mt-3 ">
+  <a href=${a} class="tea col-lg-3 col-md-4 col-6 mt-3 ">
           <div class="card my-card shadow">
-            <img src=${a} alt="tea image" class="card-img-top card-img">
+            <img src=${b} alt="tea image" class="card-img-top card-img">
             <div class="card-body">
-              <h6 class="card-title card-text text-center">${b}</h6>
+              <h6 class="card-title card-text text-center">${c}</h6>
             </div>
             <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${
-              ailmentArr[c] + ", " + ailmentArr[d] + ", " + ailmentArr[e]
+              ailmentArr[d] + ", " + ailmentArr[e] + ", " + ailmentArr[f]
             }</span></div>
             
           </div>
-        </div>`;
+        </a>`;
   };
 
   if (combination3.size !== 0) {
@@ -354,7 +378,7 @@ const displayTea4 = () => {
         ailments.includes(ailmentArr[2])
       ) {
         teas.innerHTML += `
-           ${htmlCard3(teasData[id].src, teasData[id].name, 0, 1, 2)}
+           ${htmlCard3(teasData[id].readMeHref,teasData[id].src, teasData[id].name, 0, 1, 2)}
           `;
         teasData[id].display = true;
         break;
@@ -369,7 +393,7 @@ const displayTea4 = () => {
         ailments.includes(ailmentArr[3])
       ) {
         teas.innerHTML += `
-        ${htmlCard3(teasData[id].src, teasData[id].name, 0, 1, 3)}
+        ${htmlCard3(teasData[id].readMeHref,teasData[id].src, teasData[id].name, 0, 1, 3)}
 
           `;
         teasData[id].display = true;
@@ -385,7 +409,7 @@ const displayTea4 = () => {
         ailments.includes(ailmentArr[3])
       ) {
         teas.innerHTML += `
-        ${htmlCard3(teasData[id].src, teasData[id].name, 0, 2, 3)}
+        ${htmlCard3(teasData[id].readMeHref,teasData[id].src, teasData[id].name, 0, 2, 3)}
           `;
         teasData[id].display = true;
         break;
@@ -400,7 +424,7 @@ const displayTea4 = () => {
         ailments.includes(ailmentArr[3])
       ) {
         teas.innerHTML += `
-        ${htmlCard3(teasData[id].src,teasData[id].name,1,2,3)}
+        ${htmlCard3(teasData[id].readMeHref,teasData[id].src,teasData[id].name,1,2,3)}
           `;
         teasData[id].display = true;
         break;
@@ -408,20 +432,20 @@ const displayTea4 = () => {
     }
   }
 
-  let htmlCard2 = (a, b, c, d) => {
+  let htmlCard2 = (a, b, c, d, e) => {
     return `
-  <div class="tea col-lg-3 col-md-4 col-6 mt-3 ">
+  <a href=${a} class="tea col-lg-3 col-md-4 col-6 mt-3 ">
           <div class="card my-card shadow">
-            <img src=${a} alt="tea image" class="card-img-top card-img">
+            <img src=${b} alt="tea image" class="card-img-top card-img">
             <div class="card-body">
-              <h6 class="card-title card-text text-center">${b}</h6>
+              <h6 class="card-title card-text text-center">${c}</h6>
             </div>
             <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${
-              ailmentArr[c] + ", " + ailmentArr[d]
+              ailmentArr[d] + ", " + ailmentArr[e]
             }</span></div>
             
           </div>
-        </div>`;
+        </a>`;
   };
 
   if (combination2.size !== 0) {
@@ -432,7 +456,7 @@ const displayTea4 = () => {
         ailments.includes(ailmentArr[1])
       ) {
         teas.innerHTML += `
-        ${htmlCard2(teasData[id].src, teasData[id].name, 0, 1)}
+        ${htmlCard2(teasData[id].readMeHref,teasData[id].src, teasData[id].name, 0, 1)}
           `;
         teasData[id].display = true;
         break;
@@ -445,7 +469,7 @@ const displayTea4 = () => {
         ailments.includes(ailmentArr[2])
       ) {
         teas.innerHTML += `
-        ${htmlCard2(teasData[id].src, teasData[id].name, 0, 2)}
+        ${htmlCard2(teasData[id].readMeHref,teasData[id].src, teasData[id].name, 0, 2)}
           `;
 
         teasData[id].display = true;
@@ -459,7 +483,7 @@ const displayTea4 = () => {
         ailments.includes(ailmentArr[3])
       ) {
         teas.innerHTML += `
-        ${htmlCard2(teasData[id].src, teasData[id].name, 0, 3)}
+        ${htmlCard2(teasData[id].readMeHref,teasData[id].src, teasData[id].name, 0, 3)}
           `;
         teasData[id].display = true;
         break;
@@ -472,7 +496,7 @@ const displayTea4 = () => {
         ailments.includes(ailmentArr[2])
       ) {
         teas.innerHTML += `
-        ${htmlCard2(teasData[id].src, teasData[id].name, 1, 2)}
+        ${htmlCard2(teasData[id].readMeHref,teasData[id].src, teasData[id].name, 1, 2)}
           `;
         teasData[id].display = true;
         break;
@@ -485,7 +509,7 @@ const displayTea4 = () => {
         ailments.includes(ailmentArr[3])
       ) {
         teas.innerHTML += `
-        ${htmlCard2(teasData[id].src, teasData[id].name, 1, 3)}
+        ${htmlCard2(teasData[id].readMeHref,teasData[id].src, teasData[id].name, 1, 3)}
           `;
         teasData[id].display = true;
         break;
@@ -498,7 +522,7 @@ const displayTea4 = () => {
         ailments.includes(ailmentArr[3])
       ) {
         teas.innerHTML += `
-        ${htmlCard2(teasData[id].src, teasData[id].name, 2, 3)}
+        ${htmlCard2(teasData[id].readMeHref,teasData[id].src, teasData[id].name, 2, 3)}
           `;
         teasData[id].display = true;
         break;
@@ -506,24 +530,24 @@ const displayTea4 = () => {
     }
   }
 
-  let htmlCard1 = (a, b, c) => {
+  let htmlCard1 = (a, b, c, d) => {
     return `
-  <div class="tea col-lg-3 col-md-4 col-6 mt-3 ">
+  <a href=${a} class="tea col-lg-3 col-md-4 col-6 mt-3 ">
           <div class="card my-card shadow">
-            <img src=${a} alt="tea image" class="card-img-top card-img">
+            <img src=${b} alt="tea image" class="card-img-top card-img">
             <div class="card-body">
-              <h6 class="card-title card-text text-center">${b}</h6>
+              <h6 class="card-title card-text text-center">${c}</h6>
             </div>
-            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailmentArr[c]}</span></div>
+            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailmentArr[d]}</span></div>
             
           </div>
-        </div>`;
+        </a>`;
   };
   if (combination1.size !== 0) {
     for (const [id, ailments] of combination1) {
       if (teasData[id].display === false && ailments.includes(ailmentArr[0])) {
         teas.innerHTML += `
-        ${htmlCard1(teasData[id].src, teasData[id].name, 0)}
+        ${htmlCard1(teasData[id].readMeHref,teasData[id].src, teasData[id].name, 0)}
           `;
         teasData[id].display = true;
         break;
@@ -532,7 +556,7 @@ const displayTea4 = () => {
     for (const [id, ailments] of combination1) {
       if (teasData[id].display === false && ailments.includes(ailmentArr[1])) {
         teas.innerHTML += `
-        ${htmlCard1(teasData[id].src, teasData[id].name, 1)}
+        ${htmlCard1(teasData[id].readMeHref,teasData[id].src, teasData[id].name, 1)}
           `;
         teasData[id].display = true;
         break;
@@ -541,7 +565,7 @@ const displayTea4 = () => {
     for (const [id, ailments] of combination1) {
       if (teasData[id].display === false && ailments.includes(ailmentArr[2])) {
         teas.innerHTML += `
-        ${htmlCard1(teasData[id].src, teasData[id].name, 2)}
+        ${htmlCard1(teasData[id].readMeHref,teasData[id].src, teasData[id].name, 2)}
           `;
         teasData[id].display = true;
         break;
@@ -550,7 +574,7 @@ const displayTea4 = () => {
     for (const [id, ailments] of combination1) {
       if (teasData[id].display === false && ailments.includes(ailmentArr[3])) {
         teas.innerHTML += `
-        ${htmlCard1(teasData[id].src, teasData[id].name, 3)}
+        ${htmlCard1(teasData[id].readMeHref,teasData[id].src, teasData[id].name, 3)}
           `;
         teasData[id].display = true;
         break;
@@ -564,7 +588,7 @@ const displayTea3 = () => {
     for (const [id, ailments] of combination3) {
       if (teasData[id].display === false) {
         teas.innerHTML += `
-        <div class="tea col-lg-3 col-md-4 col-6 mt-3 ">
+        <a href=${teasData[id].readMeHref} class="tea col-lg-3 col-md-4 col-6 mt-3 ">
           <div class="card my-card shadow">
             <img src=${teasData[id].src} alt="tea image" class="card-img-top card-img">
             <div class="card-body">
@@ -573,7 +597,7 @@ const displayTea3 = () => {
             <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailments.slice(0,-2)}</span></div>
             
           </div>
-        </div>
+        </a>
           `;
 
         teasData[id].display = true;
@@ -588,20 +612,20 @@ const displayTea3 = () => {
     i++;
   }
 
-  let htmlCard2 = (a, b, c, d) => {
+  let htmlCard2 = (a, b, c, d, e) => {
     return `
-  <div class="tea col-lg-3 col-md-4 col-6 mt-3 ">
+  <a href=${a} class="tea col-lg-3 col-md-4 col-6 mt-3 ">
           <div class="card my-card shadow">
-            <img src=${a} alt="tea image" class="card-img-top card-img">
+            <img src=${b} alt="tea image" class="card-img-top card-img">
             <div class="card-body">
-              <h6 class="card-title card-text text-center">${b}</h6>
+              <h6 class="card-title card-text text-center">${c}</h6>
             </div>
             <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${
-              ailmentArr[c] + ", " + ailmentArr[d]
+              ailmentArr[d] + ", " + ailmentArr[e]
             }</span></div>
             
           </div>
-        </div>`;
+        </a>`;
   };
   if (combination2.size !== 0) {
     for (const [id, ailments] of combination2) {
@@ -611,7 +635,7 @@ const displayTea3 = () => {
         ailments.includes(ailmentArr[1])
       ) {
         teas.innerHTML += `
-        ${htmlCard2(teasData[id].src,teasData[id].src,0,1)}
+        ${htmlCard2(teasData[id].readMeHref,teasData[id].src,teasData[id].src,0,1)}
           `;
         teasData[id].display = true;
         break;
@@ -625,7 +649,7 @@ const displayTea3 = () => {
         ailments.includes(ailmentArr[2])
       ) {
         teas.innerHTML += `
-        ${htmlCard2(teasData[id].src,teasData[id].src,0,2)}  
+        ${htmlCard2(teasData[id].readMeHref,teasData[id].src,teasData[id].src,0,2)}  
           `;
         teasData[id].display = true;
         break;
@@ -638,7 +662,7 @@ const displayTea3 = () => {
         ailments.includes(ailmentArr[1]) &&
         ailments.includes(ailmentArr[2])
       ) {
-        teas.innerHTML += `        ${htmlCard2(teasData[id].src,teasData[id].src,1,2)}
+        teas.innerHTML += `        ${htmlCard2(teasData[id].readMeHref,teasData[id].src,teasData[id].src,1,2)}
 
           `;
         teasData[id].display = true;
@@ -647,13 +671,29 @@ const displayTea3 = () => {
     }
   }
 
+  let htmlCard1 = (a, b, c, d) => {
+    return `
+  <a href=${a} class="tea col-lg-3 col-md-4 col-6 mt-3 ">
+          <div class="card my-card shadow">
+            <img src=${b} alt="tea image" class="card-img-top card-img">
+            <div class="card-body">
+              <h6 class="card-title card-text text-center">${c}</h6>
+            </div>
+            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${
+              ailmentArr[d]
+            }</span></div>
+            
+          </div>
+        </a>`;
+  };
+
   if (combination1.size !== 0) {
 
     for (const [id, ailments] of combination1) {
       if (teasData[id].display === false && ailments.includes(ailmentArr[0])) {
 
         teas.innerHTML += `
-        ${htmlCard2(teasData[id].src,teasData[id].src,0)}
+        ${htmlCard1(teasData[id].readMeHref,teasData[id].src,teasData[id].src,0)}
           `;
         teasData[id].display = true;
         break;
@@ -662,7 +702,7 @@ const displayTea3 = () => {
     for (const [id, ailments] of combination1) {
       if (teasData[id].display === false && ailments.includes(ailmentArr[1])) {
         teas.innerHTML += `
-        ${htmlCard2(teasData[id].src,teasData[id].src,1)}
+        ${htmlCard1(teasData[id].readMeHref,teasData[id].src,teasData[id].src,1)}
           `;
         teasData[id].display = true;
         break;
@@ -671,7 +711,7 @@ const displayTea3 = () => {
     for (const [id, ailments] of combination1) {
       if (teasData[id].display === false && ailments.includes(ailmentArr[2])) {
         teas.innerHTML += `
-        ${htmlCard2(teasData[id].src,teasData[id].src,2)}
+        ${htmlCard1(teasData[id].readMeHref,teasData[id].src,teasData[id].src,2)}
           `;
         teasData[id].display = true;
         break;
@@ -684,7 +724,7 @@ const displayTea2 = () => {
     for (const [id, ailments] of combination2) {
       if (teasData[id].display === false) {
         teas.innerHTML += `
-        <div class="tea col-lg-3 col-md-4 col-6 mt-3 ">
+        <a href=${teasData[id].readMeHref} class="tea col-lg-3 col-md-4 col-6 mt-3 ">
           <div class="card my-card shadow">
             <img src=${teasData[id].src} alt="tea image" class="card-img-top card-img">
             <div class="card-body">
@@ -693,7 +733,7 @@ const displayTea2 = () => {
             <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailments.slice(0,-2)}</span></div>
             
           </div>
-        </div>
+        </a>
           `;
 
         teasData[id].display = true;
@@ -707,34 +747,25 @@ const displayTea2 = () => {
     ailmentArr[i] = value[0];
     i++;
   }
-  let htmlCard1 = (a, b, c) => {
+  let htmlCard1 = (a, b, c, d) => {
     return `
-  <div class="tea col-lg-3 col-md-4 col-6 mt-3 ">
+  <a href=${a} class="tea col-lg-3 col-md-4 col-6 mt-3 ">
           <div class="card my-card shadow">
-            <img src=${a} alt="tea image" class="card-img-top card-img">
+            <img src=${b} alt="tea image" class="card-img-top card-img">
             <div class="card-body">
-              <h6 class="card-title card-text text-center">${b}</h6>
+              <h6 class="card-title card-text text-center">${c}</h6>
             </div>
-            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailmentArr[c]}</span></div>
+            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailmentArr[d]}</span></div>
             
           </div>
-        </div>`;
+        </a>`;
   };
   if (combination1.size !== 0) {
     let count = 0;
     for (const [id, ailments] of combination1) {
       if (teasData[id].display === false && ailments.includes(ailmentArr[0])) {
         teas.innerHTML += `
-        <div class="tea col-lg-3 col-md-4 col-6 mt-3 ">
-        <div class="card my-card shadow">
-          <img src=${teasData[id].src} alt="tea image" class="card-img-top card-img">
-          <div class="card-body">
-            <h6 class="card-title card-text text-center">${teasData[id].name}</h6>
-          </div>
-          <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailmentArr[0]}</span></div>
-          
-        </div>
-      </div>
+        ${htmlCard1(teasData[id].readMeHref,teasData[id].src,teasData[id].name,0)}
           `;
         teasData[id].display = true;
         count++;
@@ -745,16 +776,7 @@ const displayTea2 = () => {
     for (const [id, ailments] of combination1) {
       if (teasData[id].display === false && ailments.includes(ailmentArr[1])) {
         teas.innerHTML += `
-        <div class="tea col-lg-3 col-md-4 col-6 mt-3 ">
-        <div class="card my-card shadow">
-          <img src=${teasData[id].src} alt="tea image" class="card-img-top card-img">
-          <div class="card-body">
-            <h6 class="card-title card-text text-center">${teasData[id].name}</h6>
-          </div>
-          <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailmentArr[1]}</span></div>
-          
-        </div>
-      </div>
+        ${htmlCard1(teasData[id].readMeHref,teasData[id].src,teasData[id].name,1)}
           `;
         teasData[id].display = true;
         count++
@@ -768,7 +790,7 @@ const displayTea1 = () => {
     for (const [id, ailments] of combination1) {
       if (teasData[id].display === false) {
         teas.innerHTML += `
-        <div class="tea col-lg-3 col-md-4 col-6 mt-3 ">
+        <a href=${teasData[id].readMeHref} class="tea col-lg-3 col-md-4 col-6 mt-3 ">
         <div class="card my-card shadow">
           <img src=${teasData[id].src} alt="tea image" class="card-img-top card-img">
           <div class="card-body">
@@ -777,7 +799,7 @@ const displayTea1 = () => {
           <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailments.slice(0,-2)}</span></div>
           
         </div>
-      </div>
+      </a>
           `;
 
         teasData[id].display = true;
