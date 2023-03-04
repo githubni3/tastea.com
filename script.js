@@ -343,6 +343,7 @@ const displayTea4 = () => {
         }
       }
     }
+    return
   }
 
   let ailmentArr = [];
