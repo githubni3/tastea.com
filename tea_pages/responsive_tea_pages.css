@@ -13,6 +13,16 @@
     }
 }
 
+@media screen and (max-width:995px) {
+    .my_img {
+        height: 20rem;
+    }
+}
+@media screen and (max-width:995px) {
+    .my_img {
+        height: 18rem;
+    }
+}
 @media screen and (min-width: 540px) and (max-width: 767px) {
     #outer_div {
         width: 90vw;
