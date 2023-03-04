@@ -207,6 +207,10 @@
   #teas{
     width: 98vw;
   }
+  #help_section_form{
+    width: 95vw;
+    margin: auto;
+  }
 }
 
 /* scroll bar in help section for small devices */
