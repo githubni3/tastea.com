@@ -326,7 +326,7 @@ const displayTea4 = () => {
           teasData[j].display === false
         ) {
           teas.innerHTML += `
-          <a href=${teasData[id].readMeHref} class="tea col-lg-3 col-md-4 col-6 mt-3 ">
+          <a href=${teasData[j].readMeHref} class="tea col-lg-3 col-md-4 col-6 mt-3 ">
             <div class="card my-card shadow">
               <img src=${teasData[j].src} alt="tea image" class="card-img-top card-img">
               <div class="card-body">
@@ -343,7 +343,6 @@ const displayTea4 = () => {
         }
       }
     }
-    return;
   }
 
   let ailmentArr = [];
