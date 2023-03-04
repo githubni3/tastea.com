@@ -399,14 +399,8 @@ const displayTea4 = () => {
         ailments.includes(ailmentArr[2]) &&
         ailments.includes(ailmentArr[3])
       ) {
-        teas.innerHTML += `           ${htmlCard3(
-          teasData[id].src,
-          teasData[id].name,
-          1,
-          2,
-          3
-        )}
-
+        teas.innerHTML += `
+        ${htmlCard3(teasData[id].src,teasData[id].name,1,2,3)}
           `;
         teasData[id].display = true;
         break;
@@ -570,13 +564,14 @@ const displayTea3 = () => {
     for (const [id, ailments] of combination3) {
       if (teasData[id].display === false) {
         teas.innerHTML += `
-        <div class="card my-card shadow">
-          <img src=${teasData[id].src} alt="tea image" class="card-img-top card-img">
-          <div class="card-body">
-            <h6 class="card-title card-text text-center">${teasData[id].name}</h6>
-          </div>
-          <span class="heading ms-4">Best For :</span>
-          <div class="bestFor text-center mb-2">${ailments.slice(0,-2)}</div>
+        <div class="tea col-lg-3 col-md-4 col-6 mt-3 ">
+          <div class="card my-card shadow">
+            <img src=${teasData[id].src} alt="tea image" class="card-img-top card-img">
+            <div class="card-body">
+              <h6 class="card-title card-text text-center">${teasData[id].name}</h6>
+            </div>
+            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailments.slice(0,-2)}</span></div>
+            
           </div>
         </div>
           `;
@@ -689,13 +684,14 @@ const displayTea2 = () => {
     for (const [id, ailments] of combination2) {
       if (teasData[id].display === false) {
         teas.innerHTML += `
-        <div class="card my-card shadow">
-          <img src=${teasData[id].src} alt="tea image" class="card-img-top card-img">
-          <div class="card-body">
-            <h6 class="card-title card-text text-center">${teasData[id].name}</h6>
-          </div>
-          <span class="heading ms-4">Best For :</span>
-          <div class="bestFor text-center mb-2">${ailments.slice(0,-2)}</div>
+        <div class="tea col-lg-3 col-md-4 col-6 mt-3 ">
+          <div class="card my-card shadow">
+            <img src=${teasData[id].src} alt="tea image" class="card-img-top card-img">
+            <div class="card-body">
+              <h6 class="card-title card-text text-center">${teasData[id].name}</h6>
+            </div>
+            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailments.slice(0,-2)}</span></div>
+            
           </div>
         </div>
           `;
@@ -725,21 +721,44 @@ const displayTea2 = () => {
         </div>`;
   };
   if (combination1.size !== 0) {
+    let count = 0;
     for (const [id, ailments] of combination1) {
       if (teasData[id].display === false && ailments.includes(ailmentArr[0])) {
         teas.innerHTML += `
-        ${htmlCard1(teasData[id].src,teasData[id].name),0}
+        <div class="tea col-lg-3 col-md-4 col-6 mt-3 ">
+        <div class="card my-card shadow">
+          <img src=${teasData[id].src} alt="tea image" class="card-img-top card-img">
+          <div class="card-body">
+            <h6 class="card-title card-text text-center">${teasData[id].name}</h6>
+          </div>
+          <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailmentArr[0]}</span></div>
+          
+        </div>
+      </div>
           `;
         teasData[id].display = true;
+        count++;
+        if(count === 2){break;}
       }
     }
-
+    count = 0;
     for (const [id, ailments] of combination1) {
       if (teasData[id].display === false && ailments.includes(ailmentArr[1])) {
         teas.innerHTML += `
-        ${htmlCard1(teasData[id].src,teasData[id].name),1} 
+        <div class="tea col-lg-3 col-md-4 col-6 mt-3 ">
+        <div class="card my-card shadow">
+          <img src=${teasData[id].src} alt="tea image" class="card-img-top card-img">
+          <div class="card-body">
+            <h6 class="card-title card-text text-center">${teasData[id].name}</h6>
+          </div>
+          <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailmentArr[1]}</span></div>
+          
+        </div>
+      </div>
           `;
         teasData[id].display = true;
+        count++
+        if(count === 2){break;}
       }
     }
   }
@@ -749,15 +768,16 @@ const displayTea1 = () => {
     for (const [id, ailments] of combination1) {
       if (teasData[id].display === false) {
         teas.innerHTML += `
+        <div class="tea col-lg-3 col-md-4 col-6 mt-3 ">
         <div class="card my-card shadow">
           <img src=${teasData[id].src} alt="tea image" class="card-img-top card-img">
           <div class="card-body">
             <h6 class="card-title card-text text-center">${teasData[id].name}</h6>
           </div>
-          <span class="heading ms-4">Best For :</span>
-          <div class="bestFor text-center mb-2">${ailments.slice(0,-2)}</div>
-          </div>
+          <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailments.slice(0,-2)}</span></div>
+          
         </div>
+      </div>
           `;
 
         teasData[id].display = true;

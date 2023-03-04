@@ -180,6 +180,10 @@
   #slider_container p {
     font-size: 17px;
   }
+  .slider{
+    width: 90%;
+    margin: auto;
+  }
 }
 /* HOW CAN WE HELP YOU */
 @media screen and (max-width: 992px) {
