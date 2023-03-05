@@ -1,4 +1,4 @@
-// Script for Business form
+// Script for corporate form
 let closeModal = () => {
     document.getElementById("modal").className = document
       .getElementById("modal")
@@ -6,25 +6,24 @@ let closeModal = () => {
   };
   
 const scriptURL1 =
-  "https://script.google.com/macros/s/AKfycbyo1NDly8hlczA4oUjYY_xCdeqH5aiieMQARN7rVuK39UQegR_B8m00cIOvyx3MV01P/exec";
+  "https://script.google.com/macros/s/AKfycbyPFlpZ4vL3JFni3C8bdwsOvcq-HSIiRDE__aAb95RpdQhONIVpIMT0FiHReQPBPmkX/exec";
 const form1 = document.forms["google-sheet1"];
 
 form1.addEventListener("submit", (e) => {
   e.preventDefault();
   document.getElementById("spinner").style.display = "flex";
   fetch(scriptURL1, { method: "POST", body: new FormData(form1) })
-    .then((response) => response2())
+    .then((response) => response1())
     .catch((error) => error2());
 });
 
-const response2 = () => {
+const response1 = () => {
   form1.reset();
   document.getElementById("spinner").style.display = "none";
   document.getElementById('modalText').innerText = "Your form is submitted."
   document.getElementById("modal").className += " openModal";
   setTimeout(closeModal, 1900);
 };
-
 const error2 = () => {
   form2.reset();
   document.getElementById("spinner").style.display = "none";

@@ -122,6 +122,7 @@
   .productName {
     font-size: 0.8rem;
   }
+  
 }
 
 
@@ -142,4 +143,15 @@
     padding: 0.5rem 1rem;
   }
     
+}
+
+@media screen and (max-width:400px) {
+  .result_list_items{
+    margin-right: 0;
+    font-size: 14px;
+  }
+  #result_list{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
 }

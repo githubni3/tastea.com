@@ -240,6 +240,17 @@ const combination3 = new Map();
 const combination2 = new Map();
 const combination1 = new Map();
 
+
+const capitaliseStr = (str) => {
+  let strArr = str.split(", ");
+  let newStr = "";
+  for (let i = 0; i < strArr.length-1; i++) {
+    const element = strArr[i];
+    newStr += checkedArr.get(element)[1]+", "
+  }
+  return newStr;
+}
+
 const findCombination = () => {
   for (let i = 0; i < teasData.length; i++) {
     const element = teasData[i];
@@ -301,7 +312,7 @@ const displayTea4 = () => {
             <div class="card-body">
               <h6 class="card-title card-text text-center">${teasData[id].name}</h6>
             </div>
-            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailments.slice(0,-2)}</span></div>
+            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${capitaliseStr(ailments).slice(0,-2)}</span></div>
             
           </div>
         </a>
@@ -362,7 +373,7 @@ const displayTea4 = () => {
               <h6 class="card-title card-text text-center">${c}</h6>
             </div>
             <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${
-              ailmentArr[d] + ", " + ailmentArr[e] + ", " + ailmentArr[f]
+              checkedArr.get(ailmentArr[d])[1] + ", " + checkedArr.get(ailmentArr[e])[1] + ", " + checkedArr.get(ailmentArr[f])[1]
             }</span></div>
             
           </div>
@@ -441,7 +452,7 @@ const displayTea4 = () => {
               <h6 class="card-title card-text text-center">${c}</h6>
             </div>
             <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${
-              ailmentArr[d] + ", " + ailmentArr[e]
+              checkedArr.get(ailmentArr[d])[1] + ", " + checkedArr.get(ailmentArr[e])[1]
             }</span></div>
             
           </div>
@@ -538,7 +549,7 @@ const displayTea4 = () => {
             <div class="card-body">
               <h6 class="card-title card-text text-center">${c}</h6>
             </div>
-            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailmentArr[d]}</span></div>
+            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${checkedArr.get(ailmentArr[d])[1]}</span></div>
             
           </div>
         </a>`;
@@ -594,7 +605,7 @@ const displayTea3 = () => {
             <div class="card-body">
               <h6 class="card-title card-text text-center">${teasData[id].name}</h6>
             </div>
-            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailments.slice(0,-2)}</span></div>
+            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${capitaliseStr(ailments).slice(0,-2)}</span></div>
             
           </div>
         </a>
@@ -621,7 +632,7 @@ const displayTea3 = () => {
               <h6 class="card-title card-text text-center">${c}</h6>
             </div>
             <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${
-              ailmentArr[d] + ", " + ailmentArr[e]
+              checkedArr.get(ailmentArr[d])[1] + ", " + checkedArr.get(ailmentArr[e])[1]
             }</span></div>
             
           </div>
@@ -680,7 +691,7 @@ const displayTea3 = () => {
               <h6 class="card-title card-text text-center">${c}</h6>
             </div>
             <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${
-              ailmentArr[d]
+              checkedArr.get(ailmentArr[d])[1]
             }</span></div>
             
           </div>
@@ -730,7 +741,7 @@ const displayTea2 = () => {
             <div class="card-body">
               <h6 class="card-title card-text text-center">${teasData[id].name}</h6>
             </div>
-            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailments.slice(0,-2)}</span></div>
+            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${capitaliseStr(ailments).slice(0,-2)}</span></div>
             
           </div>
         </a>
@@ -755,7 +766,7 @@ const displayTea2 = () => {
             <div class="card-body">
               <h6 class="card-title card-text text-center">${c}</h6>
             </div>
-            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailmentArr[d]}</span></div>
+            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${checkedArr.get(ailmentArr[d])[1]}</span></div>
             
           </div>
         </a>`;
@@ -796,7 +807,7 @@ const displayTea1 = () => {
           <div class="card-body">
             <h6 class="card-title card-text text-center">${teasData[id].name}</h6>
           </div>
-          <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${ailments.slice(0,-2)}</span></div>
+          <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${capitaliseStr(ailments).slice(0,-2)}</span></div>
           
         </div>
       </a>

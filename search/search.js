@@ -556,10 +556,138 @@ let blogJsonArray = [
     blogHref: "/tastea.com/blog/blog.html",
   },
 ];
+let faqJsonArray = [
+  {
+    id: 0,
+    keywords:
+      "faq prices darjeeling teas start low what",
+    display: false,
+    card: `<div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <b>Q. What is the price of Darjeeling Tea?</b>
+        </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <p>
+                <strong>Ans.</strong> At Tastea, our prices start as low as INR 200 for our teas. Please
+                contact us for more details.
+            </p>
+        </div>
+    </div>
+</div>`,
+  },
+  {
+    id: 1,
+    keywords:
+      "faq size packets darjeeling teas grams request size what",
+    display: false,
+    card: `<div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <b>Q. What is the size of one packet of Darjeeling Tea?</b>
+        </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+
+            <p>
+                <strong>Ans.</strong> We are available in 50 grams and 100 grams packets. However, in
+                special cases, we can change the quantity size per request.
+
+            </p>
+        </div>
+    </div>
+</div>`,
+  },
+  {
+    id: 2,
+    keywords:
+      "faq how make darjeeling teas brewing guide",
+    display: false,
+    card: `<div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <b>Q. How to make Darjeeling Tea?</b>
+        </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <p>
+                <strong>Ans.</strong> Boil water at 90^C until it reaches the mild simmering stage. Pour
+                the water in a tea pot containing two grams of Darjeeling tea and let it brew for three
+                to five minutes. Strain and enjoy. For a detailed brewing guide, please refer to <a
+                    href="../brewing_guide/brewing_guide.html" style="color: #9f476a;"><u><i>Brewing
+                            Guide</i></u></a>
+            </p>
+        </div>
+    </div>
+</div>`,
+  },
+  {
+    id: 3,
+    keywords:
+      "faq what darjeeling teas health benefits that can help with weight loss, diabetes, anxiety, mood upliftment, sleep ",
+    display: false,
+    card: `<div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <b>Q. What is special in Darjeeling Tea?</b>
+        </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <p>
+                <strong>Ans.</strong> Each leaf is picked at its bud and brought to your cup with zero
+                added colors, preservatives or chemicals. This is the one of the most natural tea that
+                you can have. Our tea contains health benefits that can help with weight loss, diabetes,
+                anxiety, mood upliftment, sleep and so on.
+            </p>
+        </div>
+    </div>
+</div>`,
+  },
+  {
+    id: 4,
+    keywords:
+      "faq normal ctc milk teas lovers Masala chai elaichi (cardamom) adrak (ginger) laung (clove)",
+    display: false,
+    card: `<div class="accordion-item">
+    <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <b>Q. Do you have normal chai?</b>
+        </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <p>
+                <strong> Ans.</strong> Yes, the tea used in our daily lives is known as CTC. We have a
+                premium CTC chai available for the milk tea lovers. Along with this, we have Masala
+                chai. It is a mixture of elaichi (cardamom), adrak (ginger) and laung (clove) along with
+                CTC.
+            </p>
+        </div>
+    </div>
+</div>`,
+  },
+];
 
 let allCount = 0;
 let productCount = 0;
 let blogCount = 0;
+let faqCount = 0;
+
 const search = () => {
   const searchText = localStorage.getItem("QUERY");
   if (searchText !== "") {
@@ -572,6 +700,7 @@ const search = () => {
 
   document.getElementById("Product").innerHTML = "";
   document.getElementById("Blog").innerHTML = "";
+  // document.getElementById('faq_accordion_') = "";
 
   productCount = 0;
   for (let i = 0; i < productJsonArray.length; i++) {
@@ -582,7 +711,7 @@ const search = () => {
   let searchTextArr = searchText
     .toLocaleLowerCase()
     .split(/\s+/)
-    .filter((ele) => ele !== "" && ele.length > 1 && ele != "tea");
+    .filter((ele) => ele !== "" && ele.length > 1);
 
   for (let j = 0; j < searchTextArr.length; j++) {
     const ele = searchTextArr[j];
@@ -608,8 +737,6 @@ const search = () => {
       }
     }
   }
-
-
 
   if (searchText.toLocaleLowerCase().includes("tea")) {
     for (let i = 0; i < productJsonArray.length; i++) {
@@ -660,19 +787,47 @@ const search = () => {
     }
   }
 
+  // ****************
+  // faq Searching
+  // ****************
   
+  for (let i = 0; i < searchTextArr.length; i++) {
+    const element = searchTextArr[i];
+    for (let j = 0; j < faqJsonArray.length; j++) {
+      const ele = faqJsonArray[j];
+      if (
+        ele.keywords.toLocaleLowerCase().includes(element) &&
+        ele.display === false
+      ) {
+        document.getElementById("faq_accordion_").innerHTML += ele.card;
+        faqCount++;
+        ele.display = true;
+        flag = true;
+      }
+    }
+  }
 
   document.getElementById("allCount").innerHTML = `${productCount + blogCount}`;
   document.getElementById("productCount").innerHTML = `${productCount}`;
   document.getElementById("blogCount").innerHTML = `${blogCount}`;
+  document.getElementById("faqCount").innerHTML = `${faqCount}`;
 
-  if(productCount!==0){
-    document.getElementById('Product_heading').innerHTML = `<h3 style="color:#9f476a;"> Our Products</h3>`;
+  if (productCount !== 0) {
+    document.getElementById(
+      "Product_heading"
+    ).innerHTML = `<h3 style="color:#9f476a;"> Our Products</h3>`;
   }
 
-  if (blogCount!==0) {
-    document.getElementById('Blog_heading').innerHTML = `<h3 style="color:#9f476a;"> Our Blogs</h3>`;
+  if (blogCount !== 0) {
+    document.getElementById(
+      "Blog_heading"
+    ).innerHTML = `<h3 style="color:#9f476a;"> Our Blogs</h3>`;
+  }
 
+  if (faqCount !== 0) {
+    document.getElementById(
+      "faq_heading"
+    ).innerHTML = `<h3 style="color:#9f476a;"> Frequently Asked Questions</h3>`;
   }
 
   if (!flag) {
@@ -685,7 +840,7 @@ const search = () => {
 var index = 0;
 var page = document.getElementsByClassName("page");
 var result_list_items = document.getElementsByClassName("result_list_items");
-let headings = document.getElementsByClassName('headings');
+let headings = document.getElementsByClassName("headings");
 var i = 0;
 
 function search_content(index) {
@@ -694,8 +849,7 @@ function search_content(index) {
 
     for (i = 0; i < page.length; i++) {
       page[i].style.display = "flex";
-      headings[i].style.display = 'block';
-
+      headings[i].style.display = "block";
     }
     for (i = 1; i < result_list_items.length; i++) {
       result_list_items[i].className =
@@ -712,7 +866,7 @@ function search_content(index) {
       result_list_items[i].className.replace("active");
   }
   result_list_items[index].className += " active";
-  headings[index-1].style.display = 'block';
+  headings[index - 1].style.display = "block";
   page[index - 1].style.display = "flex";
 }
 
