@@ -229,7 +229,7 @@ html {
   padding: 0.5rem 1rem;
   border: none;
   color: white;
-  transition: 1s ease-out;
+  /* transition: 0.4s ease-in; */
 }
 .main-btn:hover {
   /* background-color: #d47197; */
@@ -378,11 +378,10 @@ html {
 .BestFor{
   color: var(--primary-color);
   font-weight: bold;
+  margin-left: 0.2rem;
 }
 .bestFor{
   color: grey;
-  /* margin-left: 0.5rem; */
-  display: flex;
 }
 
 /*****************************************

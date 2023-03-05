@@ -312,7 +312,7 @@ const displayTea4 = () => {
             <div class="card-body">
               <h6 class="card-title card-text text-center">${teasData[id].name}</h6>
             </div>
-            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${capitaliseStr(ailments).slice(0,-2)}</span></div>
+            <div class="BestFor card-text mb-2 ms-2">Best For : <span class="bestFor text-center">${capitaliseStr(ailments).slice(0,-2)}</span></div>
             
           </div>
         </a>
@@ -343,7 +343,7 @@ const displayTea4 = () => {
               <div class="card-body">
                 <h6 class="card-title card-text text-center">${teasData[j].name}</h6>
               </div>
-              <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${name_heading}</span></div>
+              <div class="BestFor card-text mb-2 ms-2">Best For : <span class="bestFor text-center">${name_heading}</span></div>
               
             </div>
           </a>
@@ -372,7 +372,7 @@ const displayTea4 = () => {
             <div class="card-body">
               <h6 class="card-title card-text text-center">${c}</h6>
             </div>
-            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${
+            <div class="BestFor card-text mb-2 ms-2">Best For : <span class="bestFor text-center">${
               checkedArr.get(ailmentArr[d])[1] + ", " + checkedArr.get(ailmentArr[e])[1] + ", " + checkedArr.get(ailmentArr[f])[1]
             }</span></div>
             
@@ -451,7 +451,7 @@ const displayTea4 = () => {
             <div class="card-body">
               <h6 class="card-title card-text text-center">${c}</h6>
             </div>
-            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${
+            <div class="BestFor card-text mb-2 ms-2">Best For : <span class="bestFor text-center">${
               checkedArr.get(ailmentArr[d])[1] + ", " + checkedArr.get(ailmentArr[e])[1]
             }</span></div>
             
@@ -549,7 +549,7 @@ const displayTea4 = () => {
             <div class="card-body">
               <h6 class="card-title card-text text-center">${c}</h6>
             </div>
-            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${checkedArr.get(ailmentArr[d])[1]}</span></div>
+            <div class="BestFor card-text mb-2 ms-2">Best For : <span class="bestFor text-center">${checkedArr.get(ailmentArr[d])[1]}</span></div>
             
           </div>
         </a>`;
@@ -605,7 +605,7 @@ const displayTea3 = () => {
             <div class="card-body">
               <h6 class="card-title card-text text-center">${teasData[id].name}</h6>
             </div>
-            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${capitaliseStr(ailments).slice(0,-2)}</span></div>
+            <div class="BestFor card-text mb-2 ms-2">Best For : <span class="bestFor text-center">${capitaliseStr(ailments).slice(0,-2)}</span></div>
             
           </div>
         </a>
@@ -631,7 +631,7 @@ const displayTea3 = () => {
             <div class="card-body">
               <h6 class="card-title card-text text-center">${c}</h6>
             </div>
-            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${
+            <div class="BestFor card-text mb-2 ms-2">Best For : <span class="bestFor text-center">${
               checkedArr.get(ailmentArr[d])[1] + ", " + checkedArr.get(ailmentArr[e])[1]
             }</span></div>
             
@@ -646,7 +646,7 @@ const displayTea3 = () => {
         ailments.includes(ailmentArr[1])
       ) {
         teas.innerHTML += `
-        ${htmlCard2(teasData[id].readMeHref,teasData[id].src,teasData[id].src,0,1)}
+        ${htmlCard2(teasData[id].readMeHref,teasData[id].src,teasData[id].name,0,1)}
           `;
         teasData[id].display = true;
         break;
@@ -660,7 +660,7 @@ const displayTea3 = () => {
         ailments.includes(ailmentArr[2])
       ) {
         teas.innerHTML += `
-        ${htmlCard2(teasData[id].readMeHref,teasData[id].src,teasData[id].src,0,2)}  
+        ${htmlCard2(teasData[id].readMeHref,teasData[id].src,teasData[id].name,0,2)}  
           `;
         teasData[id].display = true;
         break;
@@ -673,7 +673,7 @@ const displayTea3 = () => {
         ailments.includes(ailmentArr[1]) &&
         ailments.includes(ailmentArr[2])
       ) {
-        teas.innerHTML += `        ${htmlCard2(teasData[id].readMeHref,teasData[id].src,teasData[id].src,1,2)}
+        teas.innerHTML += `        ${htmlCard2(teasData[id].readMeHref,teasData[id].src,teasData[id].name,1,2)}
 
           `;
         teasData[id].display = true;
@@ -690,7 +690,7 @@ const displayTea3 = () => {
             <div class="card-body">
               <h6 class="card-title card-text text-center">${c}</h6>
             </div>
-            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${
+            <div class="BestFor card-text mb-2 ms-2">Best For : <span class="bestFor text-center">${
               checkedArr.get(ailmentArr[d])[1]
             }</span></div>
             
@@ -704,7 +704,7 @@ const displayTea3 = () => {
       if (teasData[id].display === false && ailments.includes(ailmentArr[0])) {
 
         teas.innerHTML += `
-        ${htmlCard1(teasData[id].readMeHref,teasData[id].src,teasData[id].src,0)}
+        ${htmlCard1(teasData[id].readMeHref,teasData[id].src,teasData[id].name,0)}
           `;
         teasData[id].display = true;
         break;
@@ -713,7 +713,7 @@ const displayTea3 = () => {
     for (const [id, ailments] of combination1) {
       if (teasData[id].display === false && ailments.includes(ailmentArr[1])) {
         teas.innerHTML += `
-        ${htmlCard1(teasData[id].readMeHref,teasData[id].src,teasData[id].src,1)}
+        ${htmlCard1(teasData[id].readMeHref,teasData[id].src,teasData[id].name,1)}
           `;
         teasData[id].display = true;
         break;
@@ -722,7 +722,7 @@ const displayTea3 = () => {
     for (const [id, ailments] of combination1) {
       if (teasData[id].display === false && ailments.includes(ailmentArr[2])) {
         teas.innerHTML += `
-        ${htmlCard1(teasData[id].readMeHref,teasData[id].src,teasData[id].src,2)}
+        ${htmlCard1(teasData[id].readMeHref,teasData[id].src,teasData[id].name,2)}
           `;
         teasData[id].display = true;
         break;
@@ -741,7 +741,7 @@ const displayTea2 = () => {
             <div class="card-body">
               <h6 class="card-title card-text text-center">${teasData[id].name}</h6>
             </div>
-            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${capitaliseStr(ailments).slice(0,-2)}</span></div>
+            <div class="BestFor card-text mb-2 ms-2">Best For : <span class="bestFor text-center">${capitaliseStr(ailments).slice(0,-2)}</span></div>
             
           </div>
         </a>
@@ -766,7 +766,7 @@ const displayTea2 = () => {
             <div class="card-body">
               <h6 class="card-title card-text text-center">${c}</h6>
             </div>
-            <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${checkedArr.get(ailmentArr[d])[1]}</span></div>
+            <div class="BestFor card-text mb-2 ms-2">Best For : <span class="bestFor text-center">${checkedArr.get(ailmentArr[d])[1]}</span></div>
             
           </div>
         </a>`;
@@ -807,7 +807,7 @@ const displayTea1 = () => {
           <div class="card-body">
             <h6 class="card-title card-text text-center">${teasData[id].name}</h6>
           </div>
-          <div class="BestFor card-text mb-2 ms-2">Best For :<span class="bestFor text-center">${capitaliseStr(ailments).slice(0,-2)}</span></div>
+          <div class="BestFor card-text mb-2 ms-2">Best For : <span class="bestFor text-center">${capitaliseStr(ailments).slice(0,-2)}</span></div>
           
         </div>
       </a>
