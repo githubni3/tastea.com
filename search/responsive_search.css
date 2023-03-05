@@ -3,7 +3,8 @@
     width: 80vw;
   }
   .product img {
-    border-radius: 0.9rem;
+    border-top-left-radius: 0.9rem;
+    border-top-right-radius: 0.9rem;
     width: 280px;
     height: 210px;
   }
