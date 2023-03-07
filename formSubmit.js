@@ -3,7 +3,6 @@ const scriptURL =
 const form = document.forms["google-sheet"];
 
 form.addEventListener("submit", (e) => {
-  console.log("2")
   e.preventDefault();
   document.getElementById("spinner").style.display = "flex";
   fetch(scriptURL, { method: "POST", body: new FormData(form) })
@@ -25,4 +24,3 @@ const error_ = () => {
   document.getElementById("mailbox").innerHTML = "Some error occured";
   document.getElementById("spinner").style.display = "none";
 };
-
