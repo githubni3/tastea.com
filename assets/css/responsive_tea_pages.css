@@ -1,0 +1,98 @@
+@media screen and (min-width: 960px) {
+    #outer_div {
+        width: 80vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #inner_div {
+        margin: 10px 0;
+    }
+    #outer_div {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width:995px) {
+    .my_img {
+        height: 20rem;
+    }
+}
+@media screen and (max-width:995px) {
+    .my_img {
+        height: 18rem;
+    }
+}
+@media screen and (min-width: 540px) and (max-width: 767px) {
+    #outer_div {
+        width: 90vw;
+    }
+    #inner_div{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 5px;
+    }
+    .my_img{
+        height: 20rem;
+        width: 20rem;
+    }
+    .image_card{
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 540px) {
+    #outer_div {
+        width: 100vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #inner_div{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .tea-image{
+        margin:1rem;
+        padding: 1rem;
+    }
+    .my_img{
+        height: 14rem;
+        width: 14rem;
+        border-width: 4px;
+    }
+    .image_card{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    #inner_div,#outer_div{
+        margin: 0;
+        padding: 0;
+    }
+    .image_card{
+        padding: 5px;
+    }
+    .my_img{
+        height: 10rem;
+        width: 10rem;
+        border-width: 2px;
+    }
+    .tea-image {
+        padding: 5px;
+        margin: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1500px) {
+    .my_img{
+        height: 16rem;
+        width: 16rem;
+    }
+}
+@media screen and (max-width: 1083px){
+    .image_heading{
+        font-size: 21px;
+    }
+} 

@@ -1,0 +1,381 @@
+/* IMAGE SECTION  */
+@media screen and (max-width: 1000px) {
+  #image-section {
+    height: auto;
+  }
+  #head1 {
+    line-height: 2rem;
+    font-size: 1.6rem;
+  }
+  #head2 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+  #head3 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+  #para {
+    font-size: 0.8rem;
+  }
+  .main-btn {
+    padding: 0.3rem 0.7rem;
+    font-size: 12px;
+  }
+  
+}
+
+
+
+@media screen and (max-width: 336px) {
+  #head2 {
+    font-size: 1.4rem;
+    line-height: 1rem;
+  }
+  #head3 {
+    font-size: 1.4rem;
+    line-height: 1rem;
+  }
+  #para {
+    font-size: 0.6rem;
+    margin: 1rem 0 0.4rem 0;
+  }
+  .main-btn {
+    padding: 0.2rem 0.6rem;
+    font-size: 10px;
+  }
+}
+
+/* BEST SELLERS  */
+@media screen and (max-width: 575px) and (min-width: 440px) {
+  .card-img {
+    width: 200px;
+    height: 200px;
+  }
+  .my-card {
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    height: auto;
+  }
+
+  /* LUXURY GIFTING  */
+  .card-text-2 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 440px) and (min-width: 370px) {
+  .card-img {
+    width: 160px;
+    height: 180px;
+  }
+  .my-card {
+    width: 160px;
+    height: 200px;
+    margin: auto;
+    height: auto;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+
+  /* LUXURY GIFTING  */
+  .card-img-2 {
+    width: 160px;
+    height: 180px;
+  }
+  .my-card-2 {
+    width: 160px;
+    height: 220px;
+    margin: auto;
+  }
+  .card-text-2 {
+    font-size: 9.5px;
+  }
+}
+
+@media screen and (max-width: 370px) and (min-width: 320px) {
+  .heading {
+    font-size: 23px;
+  }
+  .card-img {
+    width: 140px;
+    height: 140px;
+  }
+  .my-card {
+    width: 140px;
+    height: 160px;
+    margin: auto;
+    height: auto;
+  }
+  .card-text {
+    font-size: 9px;
+  }
+
+  /* LUXURY GIFTING  */
+  .card-img-2 {
+    width: 140px;
+    height: 140px;
+  }
+  .my-card-2 {
+    width: 140px;
+    height: 180px;
+    margin: auto;
+  }
+  .card-text-2 {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 320px) and (min-width: 280px) {
+  .card-img {
+    width: 120px;
+    height: 120px;
+  }
+  .my-card {
+    width: 120px;
+    height: 140px;
+    margin: auto;
+    height: auto;
+  }
+  .card-text {
+    font-size: 8px;
+  }
+
+  /* LUXURY GIFTING  */
+  .card-img-2 {
+    width: 120px;
+    height: 120px;
+  }
+  .my-card-2 {
+    width: 120px;
+    height: 170px;
+    margin: auto;
+  }
+  .card-text-2 {
+    font-size: 7px;
+  }
+}
+
+/* LUXURY GIFTING  */
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .card-text-2 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 771px) and (min-width: 576px) {
+  .card-text-2 {
+    font-size: 12.4px;
+  }
+}
+
+/* WHY TASTEA  */
+@media screen and (max-width: 429px) {
+  .headers {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 757px) {
+  #slider_container p {
+    font-size: 17px;
+  }
+  .slider{
+    width: 90%;
+    margin: auto;
+  }
+}
+/* HOW CAN WE HELP YOU */
+@media screen and (max-width: 992px) {
+  #help_section label {
+    font-size: 10px;
+  }
+  #searchInput {
+    width: 40vw;
+  }
+  .dropdown-menu{
+    width: 90% !important;
+  }
+}
+/* suggested tea card  */
+@media screen and (max-width:1400px) {
+  #teas{
+    width: 90vw;
+  }
+}
+@media screen and (max-width:1215px) {
+  #teas{
+    width: 98vw;
+  }
+  #help_section_form{
+    width: 95vw;
+    margin: auto;
+  }
+}
+
+/* scroll bar in help section for small devices */
+
+@media screen and (max-width: 575px) {
+  #help-div {
+    height: 300px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+}
+
+
+/* STAY CONNECTED  */
+@media screen and (min-width: 768px) {
+  #first-col {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 985px) and (min-width: 768px) {
+  #emailForm {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #stay-connected {
+    font-size: 25px;
+  }
+  #with_us {
+    font-size: 25px;
+  }
+  #newsletter {
+    font-size: 18px;
+    margin-top: 13px;
+  }
+  #email::placeholder {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #emailForm {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 369px) {
+  #emailForm {
+    width: 70vw;
+  }
+  #mailbox {
+    font-size: 0.85rem;
+  }
+  #email,
+  #submit_button,
+  #submit_button > img {
+    margin: 0;
+    padding: 0;
+  }
+  #email {
+    padding-left: 5px;
+  }
+  #submit_button > img {
+    width: 1.2rem;
+  }
+}
+
+/* FOOTER */
+@media screen and (max-width: 408px) and (min-width: 341px) {
+  .sm-fontsize {
+    font-size: 14px;
+  }
+  .footer_head b {
+    font-size: 16px;
+  }
+  #footer a {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 341px) {
+  .sm-fontsize {
+    font-size: 12px;
+  }
+  .footer_head b {
+    font-size: 13.2px;
+  }
+  #footer a {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 305px) {
+  .row > div {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/* ************************* */
+/* navbar search  */
+/* ************************* */
+@media screen and (max-width: 1281px) {
+  .navbar_content {
+    width: 97vw;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .navbar_content {
+    width: 98vw;
+  }
+  #navbar_search {
+    /* width: 90%;     */
+    font-size: 0.9rem;
+    padding: 0.25rem 0 0.25rem 0.25rem;
+  }
+  #navbar .nav-item {
+    padding: 0 0.225rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar_content {
+    width: 90vw;
+  }
+  .nav-link {
+    width: 100vw;
+  }
+  #search_form {
+    position: fixed;
+    top: 0.9rem;
+    left: 27.5vw;
+  }
+  #search_form{
+    grid-template-columns: 30vw min-content;
+  }
+  #navbar_search {
+    width: -webkit-fill-available;
+    font-size: 1rem;
+  }
+  .navbar-toggler {
+    position: absolute;
+    right: 5vw;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .navbar-collapse {
+    margin-top: 4rem;
+    position: relative;
+    left: -5rem;
+  }
+}
+@media screen and (max-width: 540px) {
+  .navbar_content {
+    width: 90vw;
+  }
+  #search_form{
+    grid-template-columns: auto min-content;
+  }
+  #navbar_search {
+    width: 45vw;
+}
+}
+@media screen and (max-width: 360px) {
+  .navbar_content {
+    width: 96vw;
+  }
+}

@@ -1,0 +1,162 @@
+
+/* ********************** */
+/* Search Bar */
+/* ********************** */
+body{
+  margin-top: 5rem;
+}
+#searchBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+  background-color: #e8cbd7;
+}
+#searchInput {
+  width:30vw;
+  max-width: 500px;
+  padding: 0.5rem 1rem;
+  border: 1px solid #9f476a;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+}
+#navbar_search:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #e3e6f3 inset;
+}
+#searchInput::placeholder {
+  font-size: 1.2rem;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+}
+
+
+#search_heading{
+  text-align: center;
+  color: #9f476a;
+}
+/* ********************** */
+/* Prouct Card */
+/* ********************** */
+
+#Product {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 80vw;
+  justify-content: space-evenly;
+}
+
+.product {
+  margin: 10px 15px;
+  padding-bottom: 15px;
+  border-radius: 1rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.product img {
+  border-radius: 1rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 320px;
+  height: 240px;
+}
+.productName {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #9f5b76;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.product_btn {
+  margin-top: 0.5rem;
+  display: flex;
+  width: 95%;
+  margin: auto;
+}
+.product_btn > * {
+  width: 100%;
+  text-align: center;
+  justify-self: center;
+  /* color: white; */
+  border-radius: 0.25rem;
+  padding: 5px 0;
+  width: 100%;
+}
+.product_btn #readMe {
+  /* background-color: rgba(0, 128, 0, 0.7); */
+  border: 1px solid #9f476a;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: 0;
+  color: #9f476a;
+
+}
+.product_btn #readMe:hover {
+  background-color: #9f476a;
+  color: white;
+}
+.product_btn #buyNow {
+  /* background-color: rgba(255, 0, 0, 0.7); */
+  color: green;
+  border: 1px solid #9f476a;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: 0;
+  margin-left: 0;
+}
+.product_btn #buyNow:hover {
+  background-color: rgba(0, 128, 0, 0.7);
+  color: white;
+}
+
+/* ************************* */
+/* *******Search Content**** */
+/* ************************* */
+
+#searchContent{
+  display: grid;
+  grid-template-rows: auto auto;
+  width: 80vw;
+  margin: auto;
+}
+#result_list{
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  text-align: center;
+  align-items: center;
+  background-color: #e3e6f3;
+  margin-top: 2rem;
+  width: -webkit-fill-available;
+}
+.result_list_items{
+  min-width:5rem;
+  /* border-bottom: 1px solid #9f476a; */
+  padding: 0.5rem 0.5rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.result_list_items:hover{
+  background-color: #e8cbd788;
+}
+.active{
+  background-color: #e8cbd7;
+  color: #9f476a;
+  font-weight: bold;
+}
+
+.page{
+  padding: 0.5rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* product */
+#Product{
+  justify-content: space-evenly;
+}
+
+/* blog page */
+.my-blog{
+  padding-bottom: 1rem;
+}

@@ -1,0 +1,33 @@
+
+#faq h1{
+    color: #9f476a;
+    font-weight: bolder;
+    text-align: center;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-item b{
+    color: #9f476a;
+}
+.accordion-item p{
+    font-size: 15px;
+}
+.accordion-item button:active{
+    background-color: rgb(211, 151, 231);
+}
+.accordion-button:not(.collapsed){
+    background-color: rgb(227, 216, 231);
+    border-color: none;
+}
+.accordion-button:not(.collapsed), .accordion-button:not(.collapsed):focus  {
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px;
+}
+@media screen and (max-width: 374px){
+    .accordion-item b{
+        font-size: 13px;
+    }
+    .accordion-item p{
+        font-size: 12px;
+    }
+}

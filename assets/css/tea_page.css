@@ -1,0 +1,63 @@
+/* Inner Div */
+#inner_div {
+  margin: 10px 6.25rem;
+}
+
+/* Image Description */
+.image_card {
+  /* background-color: rgb(227, 221, 232); */
+  background-color: #ffffff;
+  box-shadow: 3px 3px 9px 6px rgb(223, 214, 223);
+  max-width: 600px;
+}
+
+/* Image para  */
+.image_description {
+  font-size: 0.8rem;
+}
+
+/* Image heading */
+.image_heading {
+  color: #9f476a;
+  font-weight: 600;
+  text-align: center;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+}
+
+
+/* Image */
+.my_img {
+  height: 25rem;
+  width: 25rem;
+  border: 8px solid white;
+  margin: auto;
+}
+
+/* Image Card  */
+.tea-image {
+  padding: 1.2rem 2rem;
+  margin: 0px 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 1px 1px 6px 3px rgb(218, 209, 209);
+}
+.colour-1 {
+  background-color: #e9d7cb;
+  /* background-color: #f7e5f5; */
+}
+.colour-2 {
+  background-color: #cfbbd2;
+  /* background-color: #e3dde4; */
+}
+
+.tea_button {
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  transition: none;
+  border-radius: 23px;
+  background-color: #9f5b76;
+  border: none;
+  color: white;
+}
+.readMore {
+  display: none;
+}

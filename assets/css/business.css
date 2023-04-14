@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+
+.business_container {
+  margin-top: 4rem;
+  background-color: hsl(222deg 10% 20%);
+  color: #e0e1e6;
+  padding: 20px;
+  animation: transitionIn 0.8s;
+}
+
+.business_heading {
+  text-align: center;
+  padding-top: 35px;
+  letter-spacing: 1px;
+  background: -webkit-radial-gradient(#9f476a 30%, rgb(249, 249, 249) 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.business_content {
+  padding: 7px 5px 35px 5px;
+  text-align: center;
+  font-size: 17px;
+  color: #b0b3b8;
+}
+.errorMsg{
+  color: red;
+  margin-left: 1%;
+}
+#business_form h4 {
+  color: #9f476a;
+  font-weight: bold;
+}
+.b_form {
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+  font-size: 17px;
+  background-color: #f2f2f2;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+.b_form input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+/* input::placeholder {
+  font-family: "Times New Roman", Times, serif;
+} */
+@media screen and (min-width: 917px) {
+  .business_content {
+    padding: 7px 130px 35px 130px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .b_form {
+    width: 70%;
+    margin: 20px auto;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .b_form {
+    width: 48%;
+    margin: 20px auto;
+  }
+}
+@media screen and (max-width: 540px) {
+  /* form */
+  .b_form form input {
+    padding: 4px 0 4px 4px;
+  }
+}
+@media screen and (max-width: 450px) {
+  /* form */
+  .b_form form input {
+    padding: 4px 0 4px 4px;
+  }
+}

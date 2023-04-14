@@ -1,0 +1,52 @@
+.privacy_container{
+    animation: transitionIn 0.8s;
+
+}
+.privacy_container {
+    margin-top: 4rem;
+    background-color: hsl(222deg 10% 20%);
+    color: #e0e1e6;
+    animation: transitionIn 0.8s;
+    height: 28vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.privacy_heading {
+    /* text-align: center; */
+    letter-spacing: 1px;
+    
+  background: -webkit-linear-gradient(#9f476a 40%, rgb(249, 249, 249) 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.privacy_policy{
+    margin: 20px 15px;
+}
+.privacy_policy h1, h2, h3{
+    color: #9f476a;
+    font-weight: bold;
+}
+a{
+    color: #9f476a;
+}
+@media screen and (min-width: 451px) {
+    .privacy_policy{
+        margin: 30px;
+    }
+
+    
+}
+@media screen and (min-width:1100px) {
+    .privacy_policy{
+        margin: 30px 100px;
+    }
+
+    
+}
+.privacy_para{
+    margin: 35px 0;
+}

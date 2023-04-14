@@ -1,0 +1,158 @@
+@media screen and (max-width: 1313px) {
+  #Product {
+    width: 80vw;
+  }
+  .product img {
+    border-top-left-radius: 0.9rem;
+    border-top-right-radius: 0.9rem;
+    width: 280px;
+    height: 210px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  
+  .product img {
+    width: 200px;
+    height: 150px;
+  }
+  .product_btn > * {
+    padding: 3px 2px;
+  }
+
+  #searchInput{
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .product img {
+    width: 200px;
+    height: 150px;
+  }
+  .product_btn > * {
+    padding: 3px 2px;
+  }
+  .productName {
+    font-size: 1rem;
+  }
+  .product_btn {
+    font-size: 0.9rem;
+  }
+  #searchInput{
+    width: 60vw;
+  }
+}
+@media screen and (max-width: 726px) {
+  .product img {
+    width: 180px;
+    height: 135px;
+  }
+  .product_btn > * {
+    padding: 2px 3px;
+  }
+
+  
+}
+@media screen and (max-width: 663px) {
+  #Product {
+    width: 100vw;
+  }
+  .product img {
+    width: 160px;
+    height: 120px;
+  }
+  .product_btn > * {
+    padding: 1.5px 4px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .product_btn > * {
+    padding: 1.5px 3px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #Product {
+    width: 100vw;
+  }
+  .product img {
+    width: 280px;
+    height: 210px;
+  }
+  #searchBox{
+    min-height: 15vh;
+  }
+  #searchInput{
+    width: 70vw;
+  }
+  
+}
+@media screen and (max-width: 511px) {
+  #Product {
+    width: 100vw;
+  }
+  .product {
+    padding-bottom: 7.5px;
+  }
+  .product img {
+    width: 180px;
+    height: 120px;
+  }
+  .product_btn {
+    margin-top: 0;
+    /* grid-template-columns: 1fr; */
+  }
+  .product_btn > * {
+    padding: 1px 3px;
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 511px) {
+  .product img {
+    width: 160px;
+    height: 105px;
+  }
+}
+@media screen and (max-width: 411px) {
+  .product img {
+    width: 200px;
+    height: 150px;
+  }
+  .productName {
+    font-size: 0.8rem;
+  }
+  
+}
+
+
+/* Search Result New */
+@media screen and (min-width:280px) and (max-width:676px) {
+  #searchContent{
+    width: 100vw;
+  }
+  #result_list{
+    padding-left: 1rem;
+  }
+ 
+  .result_list_items{
+    min-width:auto;
+    margin-right: 0.5rem;
+  }
+  .page{
+    padding: 0.5rem 1rem;
+  }
+    
+}
+
+@media screen and (max-width:400px) {
+  .result_list_items{
+    margin-right: 0;
+    font-size: 14px;
+  }
+  #result_list{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+}
